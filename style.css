@@ -1,0 +1,160 @@
+body{
+    margin:0;
+    min-height:100%;
+    text-align:center;
+    font-family: "Roboto",arial;
+}
+.header-container{
+    display:flex;
+    background-color:#1F2937;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+}
+.header-w{
+    width:85%;
+}
+.header {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 32px;
+    gap:2rem;
+    margin-bottom:2.5%;
+}
+.logo {
+    width:150px;
+    height:150px;
+    padding-left: 64px;
+}
+.links {
+    display:flex;
+    justify-content:center;
+    gap:16px;
+    padding-right:0px;
+}
+ul.links {
+    font-size:18px;
+    color:#E5E7EB;
+    list-style-type: none;
+    padding:16px;
+    margin:0px;
+    gap: 16px;
+    padding-right:64px;
+}
+a {
+    text-decoration:none;
+    color:white;
+}
+.container {
+    display:flex;
+    background-color:#1F2937;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    flex-wrap: nowrap;
+    margin-bottom:5%;
+}
+.container-left{
+    flex:1 1 auto;
+    max-width:400px;
+    text-align:left;
+    
+   
+}
+.container-head {
+    font-size:48px;
+    font-weight:extra-bold;
+    color: #F9FAF8;
+    margin-bottom: 20px;
+
+}
+.container-subtext {
+    font-size:18px;
+    color:#E5E7EB;
+}
+.container-button {
+    display:block;
+    text-align:center;
+    font-size: 16px;
+    font-weight:600;
+    color:#E5E7EB;
+    background-color: rgb(25, 25, 85);
+    margin-top: 8px;
+    width:125px;
+    padding-block:7px;
+    border-radius:7px;
+    border:none;
+    
+}
+.container-button:hover{
+    background-image:none;
+    background-color:rgb(10, 10, 31);
+}
+.pic {
+    width:350px;
+    height:350px;
+    padding: 25px;
+    margin: 25px;
+    border-radius:50px;
+}
+.container-2 {
+    display:flex;
+    background-color:white;
+    justify-content:center;
+    align-items:center;
+    gap:1rem;
+    flex-direction:column;
+}
+ul.dev-image{
+    display:flex;
+    list-style-type: none;
+    gap:3rem;
+    padding:0px;
+    border:0px;
+
+}
+.heading-2 {
+    align-self:center;
+    font-size:36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+.pic1 {
+    height: 190px;
+    width: 190px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.text {
+    margin-top:5%;
+    
+}
+span {
+    max-width:200px;
+    
+}
+.quote{
+
+}
+.quote-text{
+
+}
+.author{
+
+}
+.sign-up{
+
+}
+.call{
+
+}
+p{
+
+}
+button{
+
+}
+.footer {
+
+}
