@@ -1,5 +1,7 @@
+
 body{
-    margin:0;
+    margin:0px;
+    padding:0px;
     min-height:100%;
     text-align:center;
     font-family: "Roboto",arial;
@@ -98,13 +100,15 @@ a {
     margin: 25px;
     border-radius:50px;
 }
-.container-2 {
+#container-2 {
     display:flex;
     background-color:white;
     justify-content:center;
     align-items:center;
     gap:1rem;
     flex-direction:column;
+    margin-top: 2%;
+    margin-bottom: 5%;
 }
 ul.dev-image{
     display:flex;
@@ -125,36 +129,83 @@ ul.dev-image{
     width: 190px;
     border-radius: 10px;
     object-fit: cover;
+    border: 6px solid #1F2937;
 }
 .text {
     margin-top:5%;
+    font-weight:600;
     
 }
 span {
     max-width:200px;
     
 }
-.quote{
-
+#quote{
+    display:flex;
+    padding:50px 200px;
+    background-color:#E5E7EB;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
 }
 .quote-text{
+    font-size:24px;
+    font-style: italic;
+
 
 }
 .author{
+    padding-top:5%;
+    padding-right:1%;
+    text-align:end;
+    font-weight: 600;
+    color:#3882F6;
+}
+.quote-text,.author{
+    width:70%;
+}
+#sign-up{
+    margin:8%;
+    padding:25px 80px;
+    display:flex;
+    align-items:center;
+    background-color:#3882F6;
+    border-radius:10px;
+    flex-flow:row wrap;
+    color:white;
+    gap:32px;
 
 }
-.sign-up{
-
+.sign-text{
+    text-align:left;
 }
+b{
+    font-size:24px;
+}
+
 .call{
 
 }
-p{
-
-}
 button{
-
+    flex:1;
+    width:100px;
+    height:50px;
+    background-color:#1758c0;
+    border:none;
+    border-color:white;
+    border-radius:8px;
+    font-size: 16px;
+    font-weight:600;
+    padding-block:7px;
+    color:white;
+}
+button:hover{
+    background-image:none;
+    background-color:#1F2937;
 }
 .footer {
-
+    padding:2%;
+    background-color:#1F2937;
+    color:white;
+    
 }
